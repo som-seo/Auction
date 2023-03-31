@@ -39,11 +39,17 @@ exports.login = (req, res, next) => {
       }
       return res.redirect('/');
     });
-  })(req, res, next); // 미들웨어 내의 미들웨어에는 (req, res, next)를 붙입니다.
+  })(req, res, next); // 미들웨어 내의 미들웨어에는 (req, res, next)를 붙임
 };
 
-exports.logout = (req, res) => {
-  req.logout();
-  req.session.destroy();
-  res.redirect('/');
+exports.logout = (req, res, next) => {
+  req.logout(err=>{
+    if(err){
+      return next(err)
+    }else{
+      req.session.destroy();
+      res.redirect('/');
+      console.log('로그아웃됨');
+    }
+  });
 };
