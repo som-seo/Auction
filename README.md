@@ -1,4 +1,4 @@
-# :bird: Auction <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white"><img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"><img src="https://img.shields.io/badge/Socker.io-010101?style=for-the-badge&logo=Socker.io&logoColor=white">
+# :speaker: Auction <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white"><img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"><img src="https://img.shields.io/badge/Socker.io-010101?style=for-the-badge&logo=Socker.io&logoColor=white">
 ## :tada: Node.js와 MySQL을 활용한 실시간 경매 시스템
 Node.js와 MySQL을 활용한 실시간 경매 시스템 <br>
 2023.03.31-2023.03.31 (1차 완성) <br>
